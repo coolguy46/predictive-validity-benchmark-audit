@@ -1,0 +1,11 @@
+severity,row,model_name,check,detail
+info,45,ResNet-18,model_predates_transfer_benchmark,2015-12-01 before ImageNetV2 release 2019-02-01; expected for retrospective OOD evaluation.
+info,46,ResNet-18,model_predates_transfer_benchmark,2015-12-01 before ObjectNet release 2019-12-01; expected for retrospective OOD evaluation.
+info,47,ResNet-50,model_predates_transfer_benchmark,2015-12-01 before ImageNetV2 release 2019-02-01; expected for retrospective OOD evaluation.
+info,48,ResNet-50,model_predates_transfer_benchmark,2015-12-01 before ObjectNet release 2019-12-01; expected for retrospective OOD evaluation.
+info,50,MobileNetV3-Large,model_predates_transfer_benchmark,2019-05-01 before ObjectNet release 2019-12-01; expected for retrospective OOD evaluation.
+info,51,VGG-16,model_predates_transfer_benchmark,2014-09-01 before ImageNetV2 release 2019-02-01; expected for retrospective OOD evaluation.
+info,52,VGG-16,model_predates_transfer_benchmark,2014-09-01 before ObjectNet release 2019-12-01; expected for retrospective OOD evaluation.
+info,53,AlexNet,model_predates_transfer_benchmark,2012-09-01 before ImageNetV2 release 2019-02-01; expected for retrospective OOD evaluation.
+info,54,AlexNet,model_predates_transfer_benchmark,2012-09-01 before ObjectNet release 2019-12-01; expected for retrospective OOD evaluation.
+warning,,,temporal_spread,"code: 3 months, below 12-month decay threshold"

@@ -1,0 +1,46 @@
+pair_id,transfer_group,model_name,source_score,transfer_score,source_rank,transfer_rank,rank_delta,abs_rank_delta,is_estimated
+code,all,Claude Sonnet 4.5,97.6,71.4,1.0,13.0,12.0,12.0,False
+code,all,GPT-5.3 Codex,93.0,85.0,13.5,1.5,-12.0,12.0,False
+code,all,GLM-4.7,93.0,84.9,13.5,3.0,-10.5,10.5,True
+code,all,Claude Opus 4 (Thinking),97.0,56.6,4.5,15.0,10.5,10.5,True
+code,all,DeepSeek-R1-0528,97.4,73.1,2.0,12.0,10.0,10.0,False
+code,all,MiMo-V2-Flash,92.0,80.6,15.0,5.0,-10.0,10.0,True
+code,all,Gemini 3.1 Pro,97.0,71.0,4.5,14.0,9.5,9.5,False
+code,all,Kimi K2.5 (Reasoning),94.5,85.0,11.0,1.5,-9.5,9.5,False
+code,all,GPT-5.4,95.0,84.0,9.0,4.0,-5.0,5.0,True
+code,all,Claude Opus 4.6,97.0,76.0,4.5,9.0,4.5,4.5,False
+code,all,GPT-5.2,94.0,79.0,12.0,8.0,-4.0,4.0,True
+code,all,Grok 4,97.0,79.4,4.5,7.0,2.5,2.5,False
+code,all,Gemini 2.5 Pro 06-05,95.0,73.6,9.0,11.0,2.0,2.0,True
+code,all,o4-mini (High),96.0,80.2,7.0,6.0,-1.0,1.0,True
+code,all,o3 (High),95.0,75.8,9.0,10.0,1.0,1.0,True
+knowledge,all,Gemini 3 Flash,88.0,90.4,14.0,7.0,-7.0,7.0,True
+knowledge,all,Grok 3 Mini,90.0,59.1,8.0,13.0,5.0,5.0,True
+knowledge,all,GPT-4o,87.2,68.8,15.0,10.0,-5.0,5.0,False
+knowledge,all,Llama 3.1 405B,88.6,41.3,11.0,15.0,4.0,4.0,False
+knowledge,all,GPT-5.2,91.0,92.4,7.0,4.0,-3.0,3.0,True
+knowledge,all,o1,91.8,80.0,5.0,8.0,3.0,3.0,True
+knowledge,all,GPT-5.5,93.0,93.6,1.0,3.0,2.0,2.0,True
+knowledge,all,DeepSeek V3,88.5,57.4,12.0,14.0,2.0,2.0,False
+knowledge,all,Claude Opus 4.7,92.0,94.2,3.5,2.0,-1.5,1.5,True
+knowledge,all,GPT-5.4,92.0,92.0,3.5,5.0,1.5,1.5,True
+knowledge,all,Gemini 3.1 Pro,92.6,94.3,2.0,1.0,-1.0,1.0,False
+knowledge,all,Qwen 3 72B,88.7,60.0,10.0,11.0,1.0,1.0,True
+knowledge,all,Claude 3.5 Sonnet,88.3,59.4,13.0,12.0,-1.0,1.0,False
+knowledge,all,Claude Opus 4.6,91.1,91.3,6.0,6.0,0.0,0.0,False
+knowledge,all,Claude Sonnet 4.6,89.3,74.1,9.0,9.0,0.0,0.0,False
+math,MATH-500,LongCat-Flash-Thinking,95.0,99.2,9.5,2.5,-7.0,7.0,True
+math,MATH-500,GLM-4.5,95.0,98.2,9.5,4.0,-5.5,5.5,True
+math,MATH-500,Claude 3.5 Sonnet,96.4,77.1,5.0,9.0,4.0,4.0,False
+math,MATH-500,Llama 3.1 405B,96.8,80.0,4.0,8.0,4.0,4.0,True
+math,AIME2024,Claude Opus 4,96.2,90.0,2.0,5.0,3.0,3.0,True
+math,MATH-500,Gemma 3 27B,95.9,70.0,7.0,10.0,3.0,3.0,True
+math,MATH-500,Nemotron Nano 9B v2,95.4,97.8,8.0,5.0,-3.0,3.0,False
+math,MATH-500,Kimi K2-Instruct,97.3,97.4,3.0,6.0,3.0,3.0,False
+math,AIME2024,Gemini 2.5 Pro,95.7,92.0,4.0,3.0,-1.0,1.0,False
+math,AIME2024,DeepSeek-R1-0528,95.3,91.4,5.0,4.0,-1.0,1.0,False
+math,AIME2024,Qwen3 235B A22B,96.0,94.0,3.0,2.0,-1.0,1.0,True
+math,MATH-500,o4-mini,96.0,96.2,6.0,7.0,1.0,1.0,True
+math,MATH-500,o3,99.0,99.2,2.0,2.5,0.5,0.5,True
+math,AIME2024,Grok-3 Mini,98.0,95.8,1.0,1.0,0.0,0.0,True
+math,MATH-500,GPT-5,99.4,99.4,1.0,1.0,0.0,0.0,False

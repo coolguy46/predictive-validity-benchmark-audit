@@ -1,0 +1,4 @@
+test,quantity,value,baseline,comparison,interpretation
+code_temporal_strengthening,delta_rho_latest_minus_first,-0.4255374039273218,-0.3181818181818182,-0.74371922210914,HumanEval-to-LiveCodeBench validity becomes more negative as later 2026 models enter the overlap set.
+code_one_point_quantization,rho_after_integer_quantization,-0.7577462724943792,-0.74371922210914,-0.7577462724943792,Coarse HumanEval score granularity does not remove the inversion; the negative relation is not just a decimal-scale artifact.
+mmlu_humaneval_compression_counterfactual,rho_after_rank_preserving_humaneval_template,0.7385295865411163,0.7345847437289974,0.7385295865411163,"Applying HumanEval-like score ties/range to MMLU while preserving MMLU order leaves GPQA validity positive, so compression alone is insufficient to explain the code inversion."

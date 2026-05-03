@@ -1,0 +1,16 @@
+model_name,org,date,source_benchmark,source_score,transfer_benchmark,transfer_score,score_provenance,source_estimated,transfer_estimated,is_estimated,score_conflict,pair_id,notes,date_precision,transfer_score_z
+Claude Sonnet 4.5,Anthropic,2026-04-01,HumanEval,97.6,LiveCodeBench,71.4,LayerLens / LCB,False,False,False,False,code,,month,71.4
+DeepSeek-R1-0528,DeepSeek,2026-05-01,HumanEval,97.4,LiveCodeBench,73.1,LayerLens / LCB,False,False,False,False,code,,month,73.1
+Grok 4,xAI,2026-04-01,HumanEval,97.0,LiveCodeBench,79.4,LayerLens / BenchLM,False,False,False,False,code,,month,79.4
+Gemini 3.1 Pro,Google,2026-04-01,HumanEval,97.0,LiveCodeBench,71.0,LayerLens / BenchLM,False,False,False,False,code,,month,71.0
+Claude Opus 4.6,Anthropic,2026-03-01,HumanEval,97.0,LiveCodeBench,76.0,LayerLens / BenchLM,False,False,False,False,code,,month,76.0
+GPT-5.4,OpenAI,2026-03-01,HumanEval,95.0,LiveCodeBench,84.0,BenchLM / LangDB,True,False,True,False,code,,month,84.0
+Kimi K2.5 (Reasoning),Moonshot AI,2026-03-01,HumanEval,94.5,LiveCodeBench,85.0,BenchLM,False,False,False,False,code,,month,85.0
+GPT-5.2,OpenAI,2026-03-01,HumanEval,94.0,LiveCodeBench,79.0,BenchLM,True,False,True,False,code,,month,79.0
+GLM-4.7,Zhipu AI,2026-03-01,HumanEval,93.0,LiveCodeBench,84.9,BenchLM,True,False,True,False,code,,month,84.9
+GPT-5.3 Codex,OpenAI,2026-02-01,HumanEval,93.0,LiveCodeBench,85.0,LXT / BenchLM,False,False,False,False,code,,month,85.0
+MiMo-V2-Flash,Xiaomi,2026-03-01,HumanEval,92.0,LiveCodeBench,80.6,BenchLM,True,False,True,False,code,,month,80.6
+o4-mini (High),OpenAI,2026-05-01,HumanEval,96.0,LiveCodeBench,80.2,LiveCodeBench,True,False,True,False,code,,month,80.2
+o3 (High),OpenAI,2026-05-01,HumanEval,95.0,LiveCodeBench,75.8,LiveCodeBench,True,False,True,False,code,,month,75.8
+Gemini 2.5 Pro 06-05,Google,2026-05-01,HumanEval,95.0,LiveCodeBench,73.6,LiveCodeBench,True,False,True,False,code,,month,73.6
+Claude Opus 4 (Thinking),Anthropic,2026-05-01,HumanEval,97.0,LiveCodeBench,56.6,LiveCodeBench,True,False,True,False,code,Dramatic rank inversion candidate,month,56.6

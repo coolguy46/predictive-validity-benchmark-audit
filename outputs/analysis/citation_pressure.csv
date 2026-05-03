@@ -1,0 +1,14 @@
+analysis_pair,pair_label,cohort_month,source_benchmark,cumulative_models,source_benchmark_age_months,cumulative_model_months,spearman_rho,method,note
+math_zscore,GSM8K -> MATH-500/AIME (z),2026-04,GSM8K,6,54,324,0.942857142857143,offline_proxy_cumulative_models_x_benchmark_age_months,Semantic Scholar citation counts were not queried in this offline workspace.
+math_zscore,GSM8K -> MATH-500/AIME (z),2026-05,GSM8K,15,55,825,0.22470913212714755,offline_proxy_cumulative_models_x_benchmark_age_months,Semantic Scholar citation counts were not queried in this offline workspace.
+math_math500,GSM8K -> MATH-500,2026-04,GSM8K,5,54,270,0.9999999999999999,offline_proxy_cumulative_models_x_benchmark_age_months,Semantic Scholar citation counts were not queried in this offline workspace.
+math_math500,GSM8K -> MATH-500,2026-05,GSM8K,10,55,550,0.14939024390243902,offline_proxy_cumulative_models_x_benchmark_age_months,Semantic Scholar citation counts were not queried in this offline workspace.
+math_aime2024,GSM8K -> AIME 2024,2026-05,GSM8K,5,55,275,0.39999999999999997,offline_proxy_cumulative_models_x_benchmark_age_months,Semantic Scholar citation counts were not queried in this offline workspace.
+code,HumanEval -> LiveCodeBench,2026-03,HumanEval,7,56,392,-0.3181818181818182,offline_proxy_cumulative_models_x_benchmark_age_months,Semantic Scholar citation counts were not queried in this offline workspace.
+code,HumanEval -> LiveCodeBench,2026-04,HumanEval,10,57,570,-0.6821507526861229,offline_proxy_cumulative_models_x_benchmark_age_months,Semantic Scholar citation counts were not queried in this offline workspace.
+code,HumanEval -> LiveCodeBench,2026-05,HumanEval,15,58,870,-0.74371922210914,offline_proxy_cumulative_models_x_benchmark_age_months,Semantic Scholar citation counts were not queried in this offline workspace.
+knowledge,MMLU -> GPQA Diamond,2024-12,MMLU,5,51,255,0.0,offline_proxy_cumulative_models_x_benchmark_age_months,Semantic Scholar citation counts were not queried in this offline workspace.
+knowledge,MMLU -> GPQA Diamond,2025-01,MMLU,6,52,312,0.2,offline_proxy_cumulative_models_x_benchmark_age_months,Semantic Scholar citation counts were not queried in this offline workspace.
+knowledge,MMLU -> GPQA Diamond,2026-03,MMLU,11,66,726,0.5636363636363637,offline_proxy_cumulative_models_x_benchmark_age_months,Semantic Scholar citation counts were not queried in this offline workspace.
+knowledge,MMLU -> GPQA Diamond,2026-04,MMLU,14,67,938,0.770077473690976,offline_proxy_cumulative_models_x_benchmark_age_months,Semantic Scholar citation counts were not queried in this offline workspace.
+knowledge,MMLU -> GPQA Diamond,2026-05,MMLU,15,68,1020,0.7345847437289974,offline_proxy_cumulative_models_x_benchmark_age_months,Semantic Scholar citation counts were not queried in this offline workspace.

@@ -1,0 +1,52 @@
+ref,title,url
+1,main.pdf,
+2,What Is HumanEval? - IBM,https://www.ibm.com/think/topics/humaneval
+3,LLM coding benchmarks: A complete guide for March 2026 - Openlayer,https://www.openlayer.com/blog/post/llm-coding-benchmarks-complete-guide
+4,LiveCodeBench March 2026: the coding benchmark that exposes HumanEval overfitting : r/AIToolsPerformance - Reddit,https://www.reddit.com/r/AIToolsPerformance/comments/1s5weau/livecodebench_march_2026_the_coding_benchmark/
+5,LiveCodeBench v6 Leaderboard - LLM Stats,https://llm-stats.com/benchmarks/livecodebench-v6
+6,LiveCodeBench - Vals AI,https://www.vals.ai/benchmarks/lcb
+7,Gemini 3 vs. Gemini 2.5: What are the Main Differences - Metana,https://metana.io/blog/gemini-3-vs-gemini-2-5/
+8,deepseek-ai/DeepSeek-V4-Pro · Technical Report Summary - Hugging Face,https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/discussions/129
+9,"Kimi K2.6 Model Overview: Architecture, Features & Capabilities - DeepInfra",https://deepinfra.com/blog/kimi-k2-6-model-overview
+10,HumanEval Coding Benchmark Review - Emergent Mind,https://www.emergentmind.com/topics/humaneval-coding-benchmark
+11,LiveCodeBench v6 Benchmark - Emergent Mind,https://www.emergentmind.com/topics/livecodebench-v6
+12,HumanEval Leaderboard - LLM Stats,https://llm-stats.com/benchmarks/humaneval
+13,HumanEval Benchmark - Code Generation - CodeSOTA,https://www.codesota.com/benchmark/humaneval
+14,LiveCodeBench Leaderboard - Holistic and Contamination Free Evaluation,https://livecodebench.github.io/leaderboard.html
+15,"The Closing Window. The benchmark gap narrowed, Prices… | by Satyajith Mundakkal | Apr, 2026 | Medium",https://medium.com/@jithprime/the-closing-window-98732562e9b5
+16,"LLM Benchmarks Compared: MMLU, HumanEval, GSM8K and More (2026)",https://www.lxt.ai/blog/llm-benchmarks/
+17,Best AI for Finance 2026 - Top Financial Models - LLM Stats,https://llm-stats.com/leaderboards/best-ai-for-finance
+18,Ministral 8B Instruct vs Step-3.5-Flash Comparison - LLM Stats,https://llm-stats.com/models/compare/ministral-8b-instruct-2410-vs-step-3.5-flash
+19,LLM Leaderboard 2026 — Compare Top AI Models - Vellum,https://www.vellum.ai/llm-leaderboard
+20,HumanEval Leaderboard 2026 - Compare AI Model Scores - Price Per Token,https://pricepertoken.com/leaderboards/benchmark/humaneval
+21,LiveCodeBench V6 Leaderboard | Kaggle,https://www.kaggle.com/benchmarks/open-benchmarks/livecodebench-release-v6
+22,GPT OSS 120B High vs Ministral 8B Instruct Comparison - LLM Stats,https://llm-stats.com/models/compare/gpt-oss-120b-high-vs-ministral-8b-instruct-2410
+23,K-EXAONE-236B-A23B vs Ministral 8B Instruct Comparison - LLM Stats,https://llm-stats.com/models/compare/k-exaone-236b-a23b-vs-ministral-8b-instruct-2410
+24,livecodebench Leaderboard - CodeSOTA,https://www.codesota.com/benchmark/livecodebench
+25,LiveCodeBench Leaderboard - Holistic and Contamination Free Evaluation,https://livecodebench.github.io/leaderboard_v5.html
+26,EvalPlus Leaderboard - LLM Stats,https://llm-stats.com/benchmarks/evalplus
+27,HumanEval+ Leaderboard - LLM Stats,https://llm-stats.com/benchmarks/humaneval+
+28,HumanEval: When Machines Learned to Code - Runloop,https://runloop.ai/blog/humaneval-when-machines-learned-to-code
+29,"What Is a Contaminated LLM? Detection, Famous Cases, 2026 Guide",https://llm-stats.com/blog/research/what-is-a-contaminated-llm
+30,Review Beats Planning: Dual-Model Interaction Patterns for Code Synthesis - arXiv,https://arxiv.org/html/2603.03406v1
+31,deepseek-ai/DeepSeek-V4-Pro - Hugging Face,https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro
+32,AP2O-Coder: Adaptively Progressive Preference Optimization for Reducing Compilation and Runtime Errors in LLM-Generated Code,https://ojs.aaai.org/index.php/AAAI/article/view/40771/44732
+33,moonshotai/Kimi-K2.6 - Hugging Face,https://huggingface.co/moonshotai/Kimi-K2.6
+34,Gemini 3 - Google DeepMind,https://deepmind.google/models/gemini/
+35,Change Log | DeepSeek API Docs,https://api-docs.deepseek.com/updates
+36,"Best AI Models in April 2026: ChatGPT, Claude, Gemini & Grok",https://felloai.com/ko/best-ai-models/
+37,"AI Model Benchmarks Apr 2026 | Compare GPT-5, Claude 4.5, Gemini 2.5, Grok 4",https://lmcouncil.ai/benchmarks
+38,LiveBench,https://livebench.ai/
+39,Introducing Claude Sonnet 4.5 - Anthropic,https://www.anthropic.com/news/claude-sonnet-4-5
+40,DeepSeek V4 dropped 1.6T params and 1M context without Nvidia GPUs. Here's the data.,https://www.reddit.com/r/DeepSeek/comments/1su7rzr/deepseek_v4_dropped_16t_params_and_1m_context/
+41,LiveCodeBench v6 Benchmark 2026: 5 model averages | BenchLM.ai,https://benchlm.ai/benchmarks/liveCodeBenchV6
+42,Llama 3.1 405B: Specifications and GPU VRAM Requirements - ApX Machine Learning,https://apxml.com/models/llama-3-1-405b
+43,Claude Sonnet 4.5: Technical Overview of Anthropic's Next-Generation AI Model | by Shubham,https://shubh7.medium.com/claude-sonnet-4-5-technical-overview-of-anthropics-next-generation-ai-model-4d9cf07b0ecc
+44,Claude Sonnet 4.5: A Technical Analysis & Benchmarks - Cirra AI,https://cirra.ai/articles/claude-sonnet-4-5-technical-analysis
+45,A new era of intelligence with Gemini 3 - Google Blog,https://blog.google/products-and-platforms/products/gemini/gemini-3/
+46,Qwen: Qwen3.6-Plus: Towards Real World Agents,https://qwen.ai/blog?id=qwen3.6
+47,Qwen3 Technical Report | Request PDF - ResearchGate,https://www.researchgate.net/publication/391741196_Qwen3_Technical_Report
+48,Qwen3 Technical Report - arXiv,https://arxiv.org/html/2505.09388v1
+49,"This 196B Open-Source Model Beats Claude Opus 4.5, Kimi K2.5, and GLM 4.7. Nobody Is Talking About It. | by Ari Vance - Towards AI",https://pub.towardsai.net/this-196b-open-source-model-beats-claude-opus-4-5-e4fe60852c24
+50,JoyAI-LLM Flash: Advancing Mid-Scale LLMs with Token Efficiency - arXiv,https://arxiv.org/html/2604.03044v1
+51,StoryCoder: Narrative Reformulation for Structured Reasoning in LLM Code Generation,https://arxiv.org/html/2604.14631v1

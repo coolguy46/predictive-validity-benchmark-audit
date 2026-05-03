@@ -1,0 +1,16 @@
+model_name,org,date,source_benchmark,source_score,transfer_benchmark,transfer_score,score_provenance,source_estimated,transfer_estimated,is_estimated,score_conflict,pair_id,notes,date_precision,transfer_score_z
+GPT-5,OpenAI,2026-04-01,GSM8K,99.4,MATH-500,99.4,Artificial Analysis / PricePerToken,False,False,False,False,math,,month,0.7497648178587208
+o3,OpenAI,2026-04-01,GSM8K,99.0,MATH-500,99.2,Artificial Analysis,True,False,True,False,math,,month,0.7309028098622748
+Grok-3 Mini,xAI,2026-05-01,GSM8K,98.0,AIME2024,95.8,LLM-Stats,True,False,True,False,math,,month,1.5511082416060074
+o4-mini,OpenAI,2026-05-01,GSM8K,96.0,MATH-500,96.2,Kaggle,True,False,True,False,math,,month,0.4479726899155883
+Claude Opus 4,Anthropic,2026-04-01,GSM8K,96.2,AIME2024,90.0,LayerLens / PricePerToken,False,True,True,False,math,,month,-1.2958625815949067
+Gemini 2.5 Pro,Google,2026-05-01,GSM8K,95.7,AIME2024,92.0,LLM-Stats,False,False,False,False,math,,month,-0.3141485046290738
+Claude 3.5 Sonnet,Anthropic,2024-06-01,GSM8K,96.4,MATH-500,77.1,Anthropic / LangDB,False,False,False,False,math,,month,-1.3533490737449831
+DeepSeek-R1-0528,DeepSeek,2026-05-01,GSM8K,95.3,AIME2024,91.4,LLM-Stats,False,False,False,False,math,,month,-0.6086627277188209
+Llama 3.1 405B,Meta,2024-07-01,GSM8K,96.8,MATH-500,80.0,Meta / LLM-Stats,False,True,True,False,math,,month,-1.079849957796519
+Gemma 3 27B,Google,2025-02-01,GSM8K,95.9,MATH-500,70.0,Google / LLM-Stats,False,True,True,False,math,,month,-2.0229503576188073
+Qwen3 235B A22B,Alibaba,2026-05-01,GSM8K,96.0,AIME2024,94.0,PricePerToken,True,False,True,False,math,,month,0.6675655723367592
+GLM-4.5,Zhipu AI,2026-05-01,GSM8K,95.0,MATH-500,98.2,LLM-Stats,True,False,True,False,math,,month,0.636592769880046
+LongCat-Flash-Thinking,Meituan,2026-05-01,GSM8K,95.0,MATH-500,99.2,LLM-Stats,True,False,True,False,math,,month,0.7309028098622748
+Nemotron Nano 9B v2,NVIDIA,2026-05-01,GSM8K,95.4,MATH-500,97.8,LLM-Stats,False,False,False,False,math,,month,0.5988687538871539
+Kimi K2-Instruct,Moonshot AI,2026-05-01,GSM8K,97.3,MATH-500,97.4,LLM-Stats,False,False,False,False,math,,month,0.5611447378942632

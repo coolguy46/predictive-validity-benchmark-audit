@@ -1,0 +1,6 @@
+analysis_pair,pair_label,rho0,lambda_per_month,half_life_months,half_life_years,fit_r2,n_points,span_months,status,reliability
+code,HumanEval -> LiveCodeBench,,,,,,3,2,insufficient_positive_points,not_estimable
+knowledge,MMLU -> GPQA Diamond,0.1986721244838315,-0.08248666119495057,,,0.9776467102414309,4,17,no_monotone_decay,paper_ready
+math_aime2024,GSM8K -> AIME 2024,,,,,,1,0,insufficient_positive_points,not_estimable
+math_math500,GSM8K -> MATH-500,,,,,,2,1,insufficient_positive_points,not_estimable
+math_zscore,GSM8K -> MATH-500/AIME (z),,,,,,2,1,insufficient_positive_points,not_estimable

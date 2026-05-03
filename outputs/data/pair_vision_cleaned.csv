@@ -1,0 +1,22 @@
+model_name,org,date,source_benchmark,source_score,transfer_benchmark,transfer_score,score_provenance,source_estimated,transfer_estimated,is_estimated,score_conflict,pair_id,notes,date_precision,transfer_score_z
+ResNet-18,Various,2015-12-01,ImageNet,59.7,ImageNetV2,31.2,NeurIPS 2023,False,True,True,False,vision,Qualitative case-study row,month,31.2
+ResNet-18,Various,2015-12-01,ImageNet,59.7,ObjectNet,25.8,NeurIPS 2023,False,False,False,False,vision,Qualitative case-study row,month,25.8
+ResNet-50,Various,2015-12-01,ImageNet,76.8,ImageNetV2,66.0,ICCV 2023,False,True,True,False,vision,Qualitative case-study row,month,66.0
+ResNet-50,Various,2015-12-01,ImageNet,76.8,ObjectNet,30.3,ICCV 2023,False,False,False,False,vision,Qualitative case-study row,month,30.3
+MobileNetV3-Large,Various,2019-05-01,ImageNet,71.5,ImageNetV2,62.9,ICCV 2023,False,False,False,False,vision,Qualitative case-study row,month,62.9
+MobileNetV3-Large,Various,2019-05-01,ImageNet,71.5,ObjectNet,32.4,ICCV 2023,False,False,False,False,vision,Qualitative case-study row,month,32.4
+VGG-16,Various,2014-09-01,ImageNet,63.7,ImageNetV2,55.0,NeurIPS 2023,False,True,True,False,vision,Qualitative case-study row,month,55.0
+VGG-16,Various,2014-09-01,ImageNet,63.7,ObjectNet,26.9,NeurIPS 2023,False,False,False,False,vision,Qualitative case-study row,month,26.9
+AlexNet,Various,2012-09-01,ImageNet,42.3,ImageNetV2,35.0,NeurIPS 2023,False,True,True,False,vision,Qualitative case-study row,month,35.0
+AlexNet,Various,2012-09-01,ImageNet,42.3,ObjectNet,22.0,NeurIPS 2023,False,False,False,False,vision,Qualitative case-study row,month,22.0
+ViT-B/32,Google,2020-10-01,ImageNet,67.4,ImageNetV2,58.0,NeurIPS 2023,False,True,True,False,vision,Qualitative case-study row,month,58.0
+ViT-B/32,Google,2020-10-01,ImageNet,67.4,ObjectNet,39.7,NeurIPS 2023,False,False,False,False,vision,Qualitative case-study row,month,39.7
+CLIP-ViT-L/14,OpenAI,2021-01-01,ImageNet,74.4,ImageNetV2,64.8,NeurIPS 2023,False,True,True,False,vision,Qualitative case-study row,month,64.8
+CLIP-ViT-L/14,OpenAI,2021-01-01,ImageNet,74.4,ObjectNet,36.8,NeurIPS 2023,False,False,False,False,vision,Qualitative case-study row,month,36.8
+Swin-v2-large,Microsoft,2021-11-01,ImageNet,85.0,ImageNetV2,84.0,Codesota,True,False,True,False,vision,Qualitative case-study row,month,84.0
+ConvNeXt-v2-huge,Meta,2023-01-01,ImageNet,83.0,ImageNetV2,80.5,Codesota,True,False,True,False,vision,Qualitative case-study row,month,80.5
+CoCa,Google,2022-05-01,ImageNet,91.0,ObjectNet,80.0,Codesota / Encord,False,True,True,False,vision,Qualitative case-study row,month,80.0
+CLIP (LAION) Avg,Various,2021-12-01,ImageNet,,ImageNetV2,64.8,OpenReview 2024,True,False,True,False,vision,Qualitative case-study row,month,64.8
+CLIP (LAION) Avg,Various,2021-12-01,ImageNet,,ObjectNet,60.4,OpenReview 2024,True,False,True,False,vision,Qualitative case-study row,month,60.4
+YFCC Models Avg,Various,2021-12-01,ImageNet,,ImageNetV2,23.0,OpenReview 2024,True,False,True,False,vision,Qualitative case-study row,month,23.0
+YFCC Models Avg,Various,2021-12-01,ImageNet,,ObjectNet,58.9,OpenReview 2024,True,False,True,False,vision,Qualitative case-study row,month,58.9

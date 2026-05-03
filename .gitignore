@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+.venv/
+venv/
+python_packages/
+.python_packages/
+*.log
+*.aux
+*.out
+

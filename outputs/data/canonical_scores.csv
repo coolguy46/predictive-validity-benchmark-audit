@@ -1,0 +1,67 @@
+model_name,org,date,source_benchmark,source_score,transfer_benchmark,transfer_score,score_provenance,source_estimated,transfer_estimated,is_estimated,score_conflict,pair_id,notes,date_precision,transfer_score_z
+GPT-5,OpenAI,2026-04-01,GSM8K,99.4,MATH-500,99.4,Artificial Analysis / PricePerToken,False,False,False,False,math,,month,0.7497648178587208
+o3,OpenAI,2026-04-01,GSM8K,99.0,MATH-500,99.2,Artificial Analysis,True,False,True,False,math,,month,0.7309028098622748
+Grok-3 Mini,xAI,2026-05-01,GSM8K,98.0,AIME2024,95.8,LLM-Stats,True,False,True,False,math,,month,1.5511082416060074
+o4-mini,OpenAI,2026-05-01,GSM8K,96.0,MATH-500,96.2,Kaggle,True,False,True,False,math,,month,0.4479726899155883
+Claude Opus 4,Anthropic,2026-04-01,GSM8K,96.2,AIME2024,90.0,LayerLens / PricePerToken,False,True,True,False,math,,month,-1.2958625815949067
+Gemini 2.5 Pro,Google,2026-05-01,GSM8K,95.7,AIME2024,92.0,LLM-Stats,False,False,False,False,math,,month,-0.3141485046290738
+Claude 3.5 Sonnet,Anthropic,2024-06-01,GSM8K,96.4,MATH-500,77.1,Anthropic / LangDB,False,False,False,False,math,,month,-1.3533490737449831
+DeepSeek-R1-0528,DeepSeek,2026-05-01,GSM8K,95.3,AIME2024,91.4,LLM-Stats,False,False,False,False,math,,month,-0.6086627277188209
+Llama 3.1 405B,Meta,2024-07-01,GSM8K,96.8,MATH-500,80.0,Meta / LLM-Stats,False,True,True,False,math,,month,-1.079849957796519
+Gemma 3 27B,Google,2025-02-01,GSM8K,95.9,MATH-500,70.0,Google / LLM-Stats,False,True,True,False,math,,month,-2.0229503576188073
+Qwen3 235B A22B,Alibaba,2026-05-01,GSM8K,96.0,AIME2024,94.0,PricePerToken,True,False,True,False,math,,month,0.6675655723367592
+GLM-4.5,Zhipu AI,2026-05-01,GSM8K,95.0,MATH-500,98.2,LLM-Stats,True,False,True,False,math,,month,0.636592769880046
+LongCat-Flash-Thinking,Meituan,2026-05-01,GSM8K,95.0,MATH-500,99.2,LLM-Stats,True,False,True,False,math,,month,0.7309028098622748
+Nemotron Nano 9B v2,NVIDIA,2026-05-01,GSM8K,95.4,MATH-500,97.8,LLM-Stats,False,False,False,False,math,,month,0.5988687538871539
+Kimi K2-Instruct,Moonshot AI,2026-05-01,GSM8K,97.3,MATH-500,97.4,LLM-Stats,False,False,False,False,math,,month,0.5611447378942632
+Claude Sonnet 4.5,Anthropic,2026-04-01,HumanEval,97.6,LiveCodeBench,71.4,LayerLens / LCB,False,False,False,False,code,,month,71.4
+DeepSeek-R1-0528,DeepSeek,2026-05-01,HumanEval,97.4,LiveCodeBench,73.1,LayerLens / LCB,False,False,False,False,code,,month,73.1
+Grok 4,xAI,2026-04-01,HumanEval,97.0,LiveCodeBench,79.4,LayerLens / BenchLM,False,False,False,False,code,,month,79.4
+Gemini 3.1 Pro,Google,2026-04-01,HumanEval,97.0,LiveCodeBench,71.0,LayerLens / BenchLM,False,False,False,False,code,,month,71.0
+Claude Opus 4.6,Anthropic,2026-03-01,HumanEval,97.0,LiveCodeBench,76.0,LayerLens / BenchLM,False,False,False,False,code,,month,76.0
+GPT-5.4,OpenAI,2026-03-01,HumanEval,95.0,LiveCodeBench,84.0,BenchLM / LangDB,True,False,True,False,code,,month,84.0
+Kimi K2.5 (Reasoning),Moonshot AI,2026-03-01,HumanEval,94.5,LiveCodeBench,85.0,BenchLM,False,False,False,False,code,,month,85.0
+GPT-5.2,OpenAI,2026-03-01,HumanEval,94.0,LiveCodeBench,79.0,BenchLM,True,False,True,False,code,,month,79.0
+GLM-4.7,Zhipu AI,2026-03-01,HumanEval,93.0,LiveCodeBench,84.9,BenchLM,True,False,True,False,code,,month,84.9
+GPT-5.3 Codex,OpenAI,2026-02-01,HumanEval,93.0,LiveCodeBench,85.0,LXT / BenchLM,False,False,False,False,code,,month,85.0
+MiMo-V2-Flash,Xiaomi,2026-03-01,HumanEval,92.0,LiveCodeBench,80.6,BenchLM,True,False,True,False,code,,month,80.6
+o4-mini (High),OpenAI,2026-05-01,HumanEval,96.0,LiveCodeBench,80.2,LiveCodeBench,True,False,True,False,code,,month,80.2
+o3 (High),OpenAI,2026-05-01,HumanEval,95.0,LiveCodeBench,75.8,LiveCodeBench,True,False,True,False,code,,month,75.8
+Gemini 2.5 Pro 06-05,Google,2026-05-01,HumanEval,95.0,LiveCodeBench,73.6,LiveCodeBench,True,False,True,False,code,,month,73.6
+Claude Opus 4 (Thinking),Anthropic,2026-05-01,HumanEval,97.0,LiveCodeBench,56.6,LiveCodeBench,True,False,True,False,code,Dramatic rank inversion candidate,month,56.6
+Gemini 3.1 Pro,Google,2026-04-01,MMLU,92.6,GPQA Diamond,94.3,Artificial Analysis / Iternal,False,False,False,False,knowledge,,month,94.3
+Claude Opus 4.7,Anthropic,2026-04-01,MMLU,92.0,GPQA Diamond,94.2,Vellum,True,False,True,False,knowledge,,month,94.2
+GPT-5.5,OpenAI,2026-04-01,MMLU,93.0,GPQA Diamond,93.6,Vellum,True,False,True,False,knowledge,,month,93.6
+GPT-5.4,OpenAI,2026-03-01,MMLU,92.0,GPQA Diamond,92.0,Artificial Analysis / Iternal,True,False,True,False,knowledge,,month,92.0
+GPT-5.2,OpenAI,2026-03-01,MMLU,91.0,GPQA Diamond,92.4,Vellum / Iternal,True,False,True,False,knowledge,,month,92.4
+Claude Opus 4.6,Anthropic,2026-03-01,MMLU,91.1,GPQA Diamond,91.3,Onyx / Iternal,False,False,False,False,knowledge,,month,91.3
+Gemini 3 Flash,Google,2026-03-01,MMLU,88.0,GPQA Diamond,90.4,Iternal,True,False,True,False,knowledge,,month,90.4
+o1,OpenAI,2024-12-01,MMLU,91.8,GPQA Diamond,80.0,Codesota,False,True,True,False,knowledge,,month,80.0
+DeepSeek V3,DeepSeek,2024-12-01,MMLU,88.5,GPQA Diamond,57.4,Codesota / LangDB,False,False,False,False,knowledge,,month,57.4
+Llama 3.1 405B,Meta,2024-07-01,MMLU,88.6,GPQA Diamond,41.3,Codesota / LangDB,False,False,False,False,knowledge,,month,41.3
+Qwen 3 72B,Alibaba,2025-01-01,MMLU,88.7,GPQA Diamond,60.0,Codesota,False,True,True,False,knowledge,,month,60.0
+Claude 3.5 Sonnet,Anthropic,2024-06-01,MMLU,88.3,GPQA Diamond,59.4,Amazon / Codesota,False,False,False,False,knowledge,,month,59.4
+Grok 3 Mini,xAI,2026-05-01,MMLU,90.0,GPQA Diamond,59.1,Open-Reasoner-Zero,True,False,True,False,knowledge,,month,59.1
+GPT-4o,OpenAI,2024-05-01,MMLU,87.2,GPQA Diamond,68.8,Kaggle / Codesota,False,False,False,False,knowledge,,month,68.8
+Claude Sonnet 4.6,Anthropic,2026-03-01,MMLU,89.3,GPQA Diamond,74.1,Iternal,False,False,False,False,knowledge,,month,74.1
+ResNet-18,Various,2015-12-01,ImageNet,59.7,ImageNetV2,31.2,NeurIPS 2023,False,True,True,False,vision,Qualitative case-study row,month,31.2
+ResNet-18,Various,2015-12-01,ImageNet,59.7,ObjectNet,25.8,NeurIPS 2023,False,False,False,False,vision,Qualitative case-study row,month,25.8
+ResNet-50,Various,2015-12-01,ImageNet,76.8,ImageNetV2,66.0,ICCV 2023,False,True,True,False,vision,Qualitative case-study row,month,66.0
+ResNet-50,Various,2015-12-01,ImageNet,76.8,ObjectNet,30.3,ICCV 2023,False,False,False,False,vision,Qualitative case-study row,month,30.3
+MobileNetV3-Large,Various,2019-05-01,ImageNet,71.5,ImageNetV2,62.9,ICCV 2023,False,False,False,False,vision,Qualitative case-study row,month,62.9
+MobileNetV3-Large,Various,2019-05-01,ImageNet,71.5,ObjectNet,32.4,ICCV 2023,False,False,False,False,vision,Qualitative case-study row,month,32.4
+VGG-16,Various,2014-09-01,ImageNet,63.7,ImageNetV2,55.0,NeurIPS 2023,False,True,True,False,vision,Qualitative case-study row,month,55.0
+VGG-16,Various,2014-09-01,ImageNet,63.7,ObjectNet,26.9,NeurIPS 2023,False,False,False,False,vision,Qualitative case-study row,month,26.9
+AlexNet,Various,2012-09-01,ImageNet,42.3,ImageNetV2,35.0,NeurIPS 2023,False,True,True,False,vision,Qualitative case-study row,month,35.0
+AlexNet,Various,2012-09-01,ImageNet,42.3,ObjectNet,22.0,NeurIPS 2023,False,False,False,False,vision,Qualitative case-study row,month,22.0
+ViT-B/32,Google,2020-10-01,ImageNet,67.4,ImageNetV2,58.0,NeurIPS 2023,False,True,True,False,vision,Qualitative case-study row,month,58.0
+ViT-B/32,Google,2020-10-01,ImageNet,67.4,ObjectNet,39.7,NeurIPS 2023,False,False,False,False,vision,Qualitative case-study row,month,39.7
+CLIP-ViT-L/14,OpenAI,2021-01-01,ImageNet,74.4,ImageNetV2,64.8,NeurIPS 2023,False,True,True,False,vision,Qualitative case-study row,month,64.8
+CLIP-ViT-L/14,OpenAI,2021-01-01,ImageNet,74.4,ObjectNet,36.8,NeurIPS 2023,False,False,False,False,vision,Qualitative case-study row,month,36.8
+Swin-v2-large,Microsoft,2021-11-01,ImageNet,85.0,ImageNetV2,84.0,Codesota,True,False,True,False,vision,Qualitative case-study row,month,84.0
+ConvNeXt-v2-huge,Meta,2023-01-01,ImageNet,83.0,ImageNetV2,80.5,Codesota,True,False,True,False,vision,Qualitative case-study row,month,80.5
+CoCa,Google,2022-05-01,ImageNet,91.0,ObjectNet,80.0,Codesota / Encord,False,True,True,False,vision,Qualitative case-study row,month,80.0
+CLIP (LAION) Avg,Various,2021-12-01,ImageNet,,ImageNetV2,64.8,OpenReview 2024,True,False,True,False,vision,Qualitative case-study row,month,64.8
+CLIP (LAION) Avg,Various,2021-12-01,ImageNet,,ObjectNet,60.4,OpenReview 2024,True,False,True,False,vision,Qualitative case-study row,month,60.4
+YFCC Models Avg,Various,2021-12-01,ImageNet,,ImageNetV2,23.0,OpenReview 2024,True,False,True,False,vision,Qualitative case-study row,month,23.0
+YFCC Models Avg,Various,2021-12-01,ImageNet,,ObjectNet,58.9,OpenReview 2024,True,False,True,False,vision,Qualitative case-study row,month,58.9

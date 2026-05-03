@@ -1,0 +1,16 @@
+model_name,org,date,source_benchmark,source_score,transfer_benchmark,transfer_score,score_provenance,source_estimated,transfer_estimated,is_estimated,score_conflict,pair_id,notes,date_precision,transfer_score_z
+Gemini 3.1 Pro,Google,2026-04-01,MMLU,92.6,GPQA Diamond,94.3,Artificial Analysis / Iternal,False,False,False,False,knowledge,,month,94.3
+Claude Opus 4.7,Anthropic,2026-04-01,MMLU,92.0,GPQA Diamond,94.2,Vellum,True,False,True,False,knowledge,,month,94.2
+GPT-5.5,OpenAI,2026-04-01,MMLU,93.0,GPQA Diamond,93.6,Vellum,True,False,True,False,knowledge,,month,93.6
+GPT-5.4,OpenAI,2026-03-01,MMLU,92.0,GPQA Diamond,92.0,Artificial Analysis / Iternal,True,False,True,False,knowledge,,month,92.0
+GPT-5.2,OpenAI,2026-03-01,MMLU,91.0,GPQA Diamond,92.4,Vellum / Iternal,True,False,True,False,knowledge,,month,92.4
+Claude Opus 4.6,Anthropic,2026-03-01,MMLU,91.1,GPQA Diamond,91.3,Onyx / Iternal,False,False,False,False,knowledge,,month,91.3
+Gemini 3 Flash,Google,2026-03-01,MMLU,88.0,GPQA Diamond,90.4,Iternal,True,False,True,False,knowledge,,month,90.4
+o1,OpenAI,2024-12-01,MMLU,91.8,GPQA Diamond,80.0,Codesota,False,True,True,False,knowledge,,month,80.0
+DeepSeek V3,DeepSeek,2024-12-01,MMLU,88.5,GPQA Diamond,57.4,Codesota / LangDB,False,False,False,False,knowledge,,month,57.4
+Llama 3.1 405B,Meta,2024-07-01,MMLU,88.6,GPQA Diamond,41.3,Codesota / LangDB,False,False,False,False,knowledge,,month,41.3
+Qwen 3 72B,Alibaba,2025-01-01,MMLU,88.7,GPQA Diamond,60.0,Codesota,False,True,True,False,knowledge,,month,60.0
+Claude 3.5 Sonnet,Anthropic,2024-06-01,MMLU,88.3,GPQA Diamond,59.4,Amazon / Codesota,False,False,False,False,knowledge,,month,59.4
+Grok 3 Mini,xAI,2026-05-01,MMLU,90.0,GPQA Diamond,59.1,Open-Reasoner-Zero,True,False,True,False,knowledge,,month,59.1
+GPT-4o,OpenAI,2024-05-01,MMLU,87.2,GPQA Diamond,68.8,Kaggle / Codesota,False,False,False,False,knowledge,,month,68.8
+Claude Sonnet 4.6,Anthropic,2026-03-01,MMLU,89.3,GPQA Diamond,74.1,Iternal,False,False,False,False,knowledge,,month,74.1

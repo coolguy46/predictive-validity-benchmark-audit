@@ -1,0 +1,31 @@
+model,organization,family,variant,release,humaneval,he_type,he_notes,lcb_v6,lcb_type,lcb_scaffolding,status,audit_status
+DeepSeek-V4-Pro-Max,DeepSeek,DS-V4,V4-Pro-Max,04-2026,97.4,Tech Report,Thinking Mode,93.5,Leaderboard,Thinking-Max,Clean,frontier_candidate
+Kimi K2.6,Moonshot,Kimi,K2.6,04-2026,94.5,Tech Report,Agentic,89.6,Leaderboard,Thinking Enabled,Clean,frontier_candidate
+Claude Sonnet 4.5,Anthropic,Claude,Sonnet 4.5,04-2026,97.6,Official,Zero-shot,88.8,Tech Report,Zero-shot,Clean,frontier_candidate
+Seed 2.0 Pro,ByteDance,Seed,2.0 Pro,11-2025,92.1,Leaderboard,Standard,87.8,Leaderboard,Standard,Clean,frontier_candidate
+Qwen3.6 Plus,Alibaba,Qwen,3.6 Plus,04-2026,85.8,Blog Post,Zero-shot,87.1,Leaderboard,Zero-shot,Clean,exclude_below_frontier_band
+Step-3.5-Flash,StepFun,Step,3.5-Flash,04-2026,84.4,Aggregator,Zero-shot,86.4,Blog Post,Zero-shot,Clean,exclude_below_frontier_band
+Kimi K2.5,Moonshot,Kimi,K2.5,02-2026,93.3,Blog Post,Standard,85.0,Leaderboard,Thinking-High,Clean,frontier_candidate
+GLM-4.7,Zhipu AI,GLM,4.7,01-2026,90.8,Tech Report,Standard,84.9,Leaderboard,Zero-shot,Clean,frontier_candidate
+Qwen3.6-27B,Alibaba,Qwen,3.6-27B,04-2026,91.2,Blog Post,Dense,83.9,Leaderboard,Zero-shot,Clean,frontier_candidate
+Qwen3.5-397B,Alibaba,Qwen,397B-A17B,02-2026,88.4,Blog Post,MoE,83.6,Leaderboard,Zero-shot,Clean,exclude_below_frontier_band
+Kimi K2-Think,Moonshot,Kimi,Think-0905,09-2025,94.5,Blog Post,Thinking,83.1,Leaderboard,Max-Thinking,Clean,frontier_candidate
+GLM-4.6,Zhipu AI,GLM,4.6,12-2025,89.1,Aggregator,Standard,82.8,Leaderboard,Zero-shot,Clean,exclude_below_frontier_band
+GPT OSS 120B,OpenAI,OSS,120B High,2025,93.4,Aggregator,CoT,81.9,Leaderboard,High-Reasoning,Clean,frontier_candidate_aggregator_caveat
+Seed 2.0 Lite,ByteDance,Seed,2.0 Lite,11-2025,85.3,Leaderboard,Standard,81.7,Leaderboard,Standard,Clean,exclude_below_frontier_band
+MiMo-V2-Flash,Xiaomi,MiMo,V2-Flash,2026,92.0,Leaderboard,Zero-shot,80.6,Aggregator,Zero-shot,Clean,frontier_candidate_aggregator_caveat
+Qwen3.5-122B,Alibaba,Qwen,122B-A10B,02-2026,84.0,Blog Post,MoE,78.9,Leaderboard,Zero-shot,Clean,exclude_low_or_base_anchor
+Gemma 4 31B,Google,Gemma,4-31B,2026,80.0,Model Card,Dense,80.0,Model Card,Standard,Clean,exclude_below_frontier_band
+Gemma 4 26B,Google,Gemma,4-26B-A4B,2026,77.1,Model Card,MoE,77.1,Model Card,Standard,Clean,exclude_below_frontier_band
+DeepSeek-R1,DeepSeek,R1,R1,01-2026,97.4,Tech Report,Thinking,76.8,Aggregator,Max-Thinking,Clean,frontier_candidate_aggregator_caveat
+o1-preview,OpenAI,o1,preview,09-2024,92.4,Aggregator,Standard,76.6,Leaderboard,Thinking,Clean,frontier_candidate_aggregator_caveat
+o3-mini,OpenAI,o3,mini,04-2025,96.3,Aggregator,Standard,76.4,Leaderboard,High-Thinking,Clean,frontier_candidate_aggregator_caveat
+Qwen3.5-35B,Alibaba,Qwen,35B-A3B,02-2026,81.0,Blog Post,MoE,74.6,Leaderboard,Zero-shot,Clean,exclude_below_frontier_band
+Sarvam-105B,Sarvam,Sarvam,105B,2026,72.0,Blog Post,Standard,71.7,Leaderboard,Zero-shot,Clean,exclude_below_frontier_band
+Sarvam-30B,Sarvam,Sarvam,30B,2026,70.0,Blog Post,Standard,70.0,Leaderboard,Zero-shot,Clean,exclude_below_frontier_band
+Qwen 3 Max,Alibaba,Qwen,Max,2026,74.9,Aggregator,Standard,69.0,Leaderboard,Standard,Clean,exclude_below_frontier_band
+Youtu-LLM-2B,Tencent,Youtu,2B-Base,2026,64.6,GitHub,Base,9.7,GitHub,3-shot,Clean,exclude_low_or_base_anchor
+SmolLM3-3B,HF,Smol,3B-Base,2026,34.8,GitHub,Base,2.9,GitHub,3-shot,Clean,exclude_low_or_base_anchor
+Qwen3-1.7B,Alibaba,Qwen,1.7B-Base,2026,49.9,GitHub,Base,5.1,GitHub,3-shot,Clean,exclude_low_or_base_anchor
+R1-Distill-L8B,DeepSeek,R1-Dist,Llama-8B,2026,88.1,GitHub,Distilled,36.8,GitHub,Thinking,Clean,exclude_below_frontier_band
+Gemma 4 E4B,Google,Gemma,4-E4B,2026,52.0,Model Card,Base,52.0,Model Card,Standard,Clean,exclude_low_or_base_anchor
