@@ -9,6 +9,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
+DATA_DIR = ROOT / "data"
 INPUT_DIR = ROOT / "outputs" / "deep_research_audit_extract"
 OUT_DIR = ROOT / "outputs" / "deep_research_candidate_audit"
 
@@ -121,6 +122,17 @@ def parse_cutoff_and_refs(value: str) -> tuple[str, str]:
 
 
 def load_source_map() -> dict[str, dict[str, str]]:
+    reviewer_map = DATA_DIR / "v6_source_map.csv"
+    if reviewer_map.exists():
+        refs: dict[str, dict[str, str]] = {}
+        with reviewer_map.open(encoding="utf-8-sig", newline="") as handle:
+            for row in csv.DictReader(handle):
+                refs[str(row["ref"])] = {
+                    "title": row.get("title", ""),
+                    "url": row.get("url", ""),
+                }
+        return refs
+
     lines = (INPUT_DIR / "full_text.txt").read_text(encoding="utf-8").splitlines()
     try:
         start = next(idx for idx, line in enumerate(lines) if line.strip() == "Works cited")
@@ -142,6 +154,27 @@ def load_source_map() -> dict[str, dict[str, str]]:
 
 
 def load_rows(source_map: dict[str, dict[str, str]]) -> list[dict[str, object]]:
+    reviewer_rows = DATA_DIR / "livecodebench_v6_candidate_n30.csv"
+    if reviewer_rows.exists():
+        rows: list[dict[str, object]] = []
+        with reviewer_rows.open(encoding="utf-8-sig", newline="") as handle:
+            for raw in csv.DictReader(handle):
+                rows.append(
+                    {
+                        "model": raw["model"],
+                        "organization": raw["organization"],
+                        "humaneval": float(raw["humaneval"]),
+                        "lcb_v6": float(raw["lcb_v6"]),
+                        "release_month": raw["release_month"],
+                        "training_cutoff": raw.get("training_cutoff", ""),
+                        "report_source_ref": raw.get("report_source_ref", ""),
+                        "report_source_title": raw.get("report_source_title", ""),
+                        "report_source_url": raw.get("report_source_url", ""),
+                        "provenance_note": raw.get("provenance_note", ""),
+                    }
+                )
+        return rows
+
     rows: list[dict[str, object]] = []
     with (INPUT_DIR / "table_0.csv").open(encoding="utf-8-sig", newline="") as handle:
         for raw in csv.DictReader(handle):
