@@ -8,11 +8,12 @@ The package is intended to let reviewers reproduce the reported benchmark-validi
 ## Contents
 
 - `data/canonical_n15_scores.csv`: reviewer-facing canonical 15-model HumanEval-to-LiveCodeBench score table.
-- `data/livecodebench_v6_candidate_n30.csv`: reviewer-facing 30-row LiveCodeBench-v6 candidate audit table.
-- `data/v6_source_map.csv`: source-reference map for the 30-row candidate audit.
+- `data/livecodebench_v6_candidate_n34.csv`: reviewer-facing 34-row LiveCodeBench-v6 candidate audit table.
+- `data/v6_source_map.csv`: source-reference map for the 34-row candidate audit.
 - `src/benchmark_validity_pipeline.py`: builds the canonical score tables, rank-validity diagnostics, sensitivity tables, and main figures.
 - `src/deep_research_candidate_audit.py`: recomputes threshold statistics for the public-metadata LiveCodeBench-v6 candidate audit.
 - `src/protocol_sensitivity_audit.py`: combines canonical, candidate, positive-control, and stress-test rows into the protocol-sensitivity summary used in the paper.
+- `src/supplemental_robustness_checks.py`: writes release-month residualization, leave-organization-out, and single-scale math checks.
 - `outputs/data/`: generated canonical score tables.
 - `outputs/analysis/`: generated rank correlations, ordering diagnostics, influence checks, and mechanism diagnostics.
 - `outputs/deep_research_candidate_audit/`: generated LiveCodeBench-v6 candidate-audit rows and threshold summaries.
@@ -32,7 +33,7 @@ Reviewers who want to inspect the score metadata before running code should star
 
 ```text
 data/canonical_n15_scores.csv
-data/livecodebench_v6_candidate_n30.csv
+data/livecodebench_v6_candidate_n34.csv
 data/v6_source_map.csv
 ```
 
@@ -52,6 +53,7 @@ Or run the scripts manually:
 python src/benchmark_validity_pipeline.py
 python src/deep_research_candidate_audit.py
 python src/protocol_sensitivity_audit.py
+python src/supplemental_robustness_checks.py
 ```
 
 The scripts overwrite generated CSV/PNG files under `outputs/`.

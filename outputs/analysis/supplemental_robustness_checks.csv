@@ -1,0 +1,16 @@
+check,subset,n,rho
+canonical_code_partial_spearman_release_month,all,15,-0.5712669315480676
+canonical_code_leave_organization_out,without Anthropic,12,-0.6743626899480611
+canonical_code_leave_organization_out,without DeepSeek,14,-0.714852759217472
+canonical_code_leave_organization_out,without Google,13,-0.7531387757946885
+canonical_code_leave_organization_out,without Moonshot AI,14,-0.7397687086230008
+canonical_code_leave_organization_out,without OpenAI,10,-0.7065951014132164
+canonical_code_leave_organization_out,without Xiaomi,14,-0.741701689141133
+canonical_code_leave_organization_out,without Zhipu AI,14,-0.7151592448974203
+canonical_code_leave_organization_out,without xAI,14,-0.778919661631538
+canonical_code_reporting_selection_stress,remove 5 largest transfer-over-source rank improvements,10,-0.47049924500615053
+canonical_code_reporting_selection_stress,remove 5 largest absolute rank disagreements,10,-0.45355615174225844
+math_single_scale,MATH-500,10,0.149390243902439
+math_single_scale,AIME2024,5,0.3999999999999999
+v6_release_date_sensitivity,release >= 2025-01,29,-0.20597754450830114
+v6_release_date_sensitivity_inversion_rate,release >= 2025-01,29,0.5384615384615384

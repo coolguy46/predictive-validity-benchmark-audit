@@ -13,7 +13,6 @@ ref,title,url
 12,HumanEval Leaderboard - LLM Stats,https://llm-stats.com/benchmarks/humaneval
 13,HumanEval Benchmark - Code Generation - CodeSOTA,https://www.codesota.com/benchmark/humaneval
 14,LiveCodeBench Leaderboard - Holistic and Contamination Free Evaluation,https://livecodebench.github.io/leaderboard.html
-15,"The Closing Window. The benchmark gap narrowed, Prices… | by Satyajith Mundakkal | Apr, 2026 | Medium",https://medium.com/@jithprime/the-closing-window-98732562e9b5
 16,"LLM Benchmarks Compared: MMLU, HumanEval, GSM8K and More (2026)",https://www.lxt.ai/blog/llm-benchmarks/
 17,Best AI for Finance 2026 - Top Financial Models - LLM Stats,https://llm-stats.com/leaderboards/best-ai-for-finance
 18,Ministral 8B Instruct vs Step-3.5-Flash Comparison - LLM Stats,https://llm-stats.com/models/compare/ministral-8b-instruct-2410-vs-step-3.5-flash
@@ -47,6 +46,6 @@ ref,title,url
 46,Qwen: Qwen3.6-Plus: Towards Real World Agents,https://qwen.ai/blog?id=qwen3.6
 47,Qwen3 Technical Report | Request PDF - ResearchGate,https://www.researchgate.net/publication/391741196_Qwen3_Technical_Report
 48,Qwen3 Technical Report - arXiv,https://arxiv.org/html/2505.09388v1
-49,"This 196B Open-Source Model Beats Claude Opus 4.5, Kimi K2.5, and GLM 4.7. Nobody Is Talking About It. | by Ari Vance - Towards AI",https://pub.towardsai.net/this-196b-open-source-model-beats-claude-opus-4-5-e4fe60852c24
 50,JoyAI-LLM Flash: Advancing Mid-Scale LLMs with Token Efficiency - arXiv,https://arxiv.org/html/2604.03044v1
 51,StoryCoder: Narrative Reformulation for Structured Reasoning in LLM Code Generation,https://arxiv.org/html/2604.14631v1
+sarvam2026,Open-Sourcing Sarvam 30B and 105B,https://www.sarvam.ai/blogs/sarvam-30b-105b

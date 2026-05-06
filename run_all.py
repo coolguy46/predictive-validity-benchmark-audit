@@ -17,8 +17,8 @@ def main() -> None:
     run("src/benchmark_validity_pipeline.py")
     run("src/deep_research_candidate_audit.py")
     run("src/protocol_sensitivity_audit.py")
+    run("src/supplemental_robustness_checks.py")
 
 
 if __name__ == "__main__":
     main()
-

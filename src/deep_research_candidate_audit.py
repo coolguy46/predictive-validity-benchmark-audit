@@ -154,7 +154,9 @@ def load_source_map() -> dict[str, dict[str, str]]:
 
 
 def load_rows(source_map: dict[str, dict[str, str]]) -> list[dict[str, object]]:
-    reviewer_rows = DATA_DIR / "livecodebench_v6_candidate_n30.csv"
+    reviewer_rows = DATA_DIR / "livecodebench_v6_candidate_n34.csv"
+    if not reviewer_rows.exists():
+        reviewer_rows = DATA_DIR / "livecodebench_v6_candidate_n30.csv"
     if reviewer_rows.exists():
         rows: list[dict[str, object]] = []
         with reviewer_rows.open(encoding="utf-8-sig", newline="") as handle:
